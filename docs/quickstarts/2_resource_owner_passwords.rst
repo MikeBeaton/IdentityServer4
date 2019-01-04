@@ -7,7 +7,7 @@ to the token service and get an access token back that represents that user.
 
 The spec generally recommends against using the resource owner password grant besides legacy applications that cannot host a browser.
 Generally speaking you are typically far better off using one of the interactive
-OpenID Connect flows when you want to authenticate a user and request access tokens.
+OpenID Connect flows (*** such as? ***) when you want to authenticate a user and request access tokens.
 
 Nevertheless, this grant type allows us to introduce the concept of users to our
 quickstart IdentityServer, and that's why we show it.
